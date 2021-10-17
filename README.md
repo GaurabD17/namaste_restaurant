@@ -1,11 +1,5 @@
 # Namaste Restaurant - React ecommerce website
 Namaste Restaurant is an ecommerce website built using React, Redux integrated with Node.js and Express backend.
-
-A demo for the Website App is available [here](https://mamas-restaurant-app.herokuapp.com/).
-
-The app is responsive (suitable for different screen sizes - phone, tablet, etc.)
-![mamas restaurant](website.gif "mamas restaurant")
-
 ## Pages
 Home page `/home`:
     * Welcome home page.
