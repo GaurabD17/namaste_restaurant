@@ -47,7 +47,7 @@ class Header extends Component {
             <Navbar inline collapseOnSelect className='my-auto text-uppercase shadow py-1' expand="lg" bg="white" sticky='top'>
                 <Navbar.Brand className='nav-link pl-0 ml-md-5 pl-md-5 font-weight-bold'>
                     <Link to='' className='text-dark'>
-                        Mama's Restaurant
+                        Namaste Restaurant
                     </Link>
                 </Navbar.Brand>
                 <Navbar.Collapse id="responsive-navbar-nav">
@@ -57,6 +57,15 @@ class Header extends Component {
                                 Deliveries
                             </Link>
                         </Nav.Link>
+                        <Nav.Link className='my-auto'>
+                            <Link to='reservation' href='https://namaste-restaurant.resos.com/booking' onClick={(e) => {
+                                e.preventDefault();
+                                window.location.href='https://namaste-restaurant.resos.com/booking';
+                                }} className='text-secondary'>
+                                Reservation
+                            </Link>
+                        </Nav.Link>
+                        
                         <NavDropdown className='my-auto text-dark' title='MENU' id="collapsible-nav-dropdown">
                             <Link to='menu.lunch' onClick={this.handleCollapse} className='text-secondary ml-3 mr-4'>
                                 lunch

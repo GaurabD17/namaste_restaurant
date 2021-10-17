@@ -12,9 +12,9 @@ export default function Footer() {
                         <p className='text-uppercase'>LOCATIONS</p>
                         <Row className='text-capitalize'>
                             <Col lg={3}>
-                                <p>Brooklyn
+                                <p>Sydney
                                     376 Fake Street
-                                    Brooklyn, NY — 11231
+                                    Sydney, NSW — 11231
                                     (718) 555-1234
                                 </p>
                             </Col>

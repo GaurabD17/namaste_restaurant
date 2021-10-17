@@ -10,9 +10,9 @@ export default function Readme() {
             <Container className="p-5">
                 <article className="markdown-body entry-content" itemProp="text">
                     <div>
-                        <h1>Mama's Restaurant - React ecommerce website</h1>
+                        <h1>Namaste Restaurant - React ecommerce website</h1>
                         <hr/>
-                        <p>Mama's Restaurant is an ecommerce website built using React, Redux integrated with Node.js and Express backend.</p>
+                        <p>Namaste Restaurant is an ecommerce website built using React, Redux integrated with Node.js and Express backend.</p>
                         <p>A demo for the Website App is available <a href="https://mamas-restaurant-app.herokuapp.com/" rel="nofollow">here</a>.
                         </p>
                     </div>

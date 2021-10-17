@@ -1,5 +1,5 @@
-# Mama's Restaurant - React ecommerce website
-Mama's Restaurant is an ecommerce website built using React, Redux integrated with Node.js and Express backend.
+# Namaste Restaurant - React ecommerce website
+Namaste Restaurant is an ecommerce website built using React, Redux integrated with Node.js and Express backend.
 
 A demo for the Website App is available [here](https://mamas-restaurant-app.herokuapp.com/).
 

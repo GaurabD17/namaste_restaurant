@@ -34,8 +34,10 @@ class App extends Component {
             <Router>
                 <div className="App">
                     <Header className="Header"/>
+                    
                     <Switch>
                         <Route exact path="/delivery" component={Delivery}/>
+                        
                         <Route exact path="/gallery" component={Gallery}/>
                         <Route exact path="/menu.lunch" component={MenuLunch}/>
                         <Route exact path="/menu.evening" component={MenuEvening}/>

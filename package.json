@@ -1,4 +1,5 @@
 {
+    "homepage": "http://GaurabD17.github.io/namaste_restaurant",
     "name": "react-restaurant-server",
     "version": "1.0.0",
     "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
@@ -6,18 +7,20 @@
         "start": "node index.js",
         "app": "npm install && cd client && npm install && npm run build && cd .. && node index.js",
         "heroku-postbuild": "cd client && npm install && npm run build",
-        "test": "mocha"
+        "test": "mocha",
+        "predeploy" : "npm run build",
+        "deploy" : "gh-pages -d build"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/nitaiaharoni1/react-restaurant-website.git"
+        "url": "git+https://github.com/GaurabD17/namaste_restaurant.git"
     },
-    "author": "Nitai Aharoni",
+    "author": "GaurabD17",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/nitaiaharoni1/react-restaurant-website/issues"
+        "url": "https://github.com/GaurabD17/namaste_restaurant/issues"
     },
-    "homepage": "https://github.com/nitaiaharoni1/react-restaurant-website#readme",
+    
     "dependencies": {
         "body-parser": "^1.19.0",
         "cookie-parser": "^1.4.4",
@@ -30,6 +33,7 @@
     },
     "devDependencies": {
         "chai": "^4.2.0",
+        "gh-pages": "^3.2.3",
         "mocha": "^6.2.0",
         "supertest": "^4.0.2"
     }
